@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - Club Forestier d'Agadir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-top"><h1>Contact</h1></header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="activites.html">Activités</a>
+    <a href="installations.html">Installations</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main class="container">
+    <h2>Nous contacter / Venir au club</h2>
+    <p>Adresse : Zone verte à côté du Agadir Golf Training Center — Bensergao, Agadir.</p>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap:18px;">
+      <div class="card contact-form">
+        <h3>Envoyez-nous un message</h3>
+        <form>
+          <label>Nom</label><br>
+          <input type="text" name="nom" required><br>
+          <label>Email</label><br>
+          <input type="email" name="email" required><br>
+          <label>Message</label><br>
+          <textarea name="message" rows="5" required></textarea><br><br>
+          <button class="primary" type="submit">Envoyer</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Localisation</h3>
+        <p>Nous sommes à côté du <strong>Agadir Golf Training Center</strong>. Utilisez la carte ci-dessous pour trouver le trajet.</p>
+        <div class="map-wrap">
+          <!-- Google Maps embed: recherche "Agadir Golf Training Center" -->
+          <iframe src="https://www.google.com/maps?q=Agadir+Golf+Training+Center&output=embed" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:14px; font-size:13px; color:#666;">Téléphone : +212 6X XX XX XX XX (exemple) • Email : contact@clubforestieragadir.ma (exemple)</p>
+  </main>
+  <footer><p>© 2025 Club Forestier d'Agadir</p></footer>
+</body>
+</html>
